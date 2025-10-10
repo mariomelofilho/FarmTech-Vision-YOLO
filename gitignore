@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch model files
+*.pth
+*.pt
+*.onnx
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset files (will be linked via Google Drive)
+dataset/train/images/*.jpg
+dataset/train/images/*.png
+dataset/val/images/*.jpg
+dataset/val/images/*.png
+dataset/test/images/*.jpg
+dataset/test/images/*.png
+
+# Keep folder structure
+!dataset/train/images/.gitkeep
+!dataset/val/images/.gitkeep
+!dataset/test/images/.gitkeep
+!dataset/train/labels/.gitkeep
+!dataset/val/labels/.gitkeep
+!dataset/test/labels/.gitkeep
+
+# YOLO training results
+runs/
+results/training_logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.venv/
+
+# Temporary files
+*.tmp
+*.temp
