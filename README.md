@@ -39,14 +39,11 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
   - Labels
   - dataset
 
- <a href="https://drive.google.com/drive/folders/1QClCMvIgSrBdM7y5b_coLSUgCYieDRm9?usp=sharing">Parte 1</a> 
+### Jupyter Notebook no Google Drive
 
- <a href="https://drive.google.com/drive/folders/1A_6KW9Ah3LVeyLyXPSC8_EA4S67eavAj?usp=sharing">Parte 2</a> 
-
-- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
-
-
-
+    Cada notebook usa um folder próprio no google drive, mas o dataset e os resultados da parte1 foram copiados para parte2, para evitar mudanças inadvertidas nos resultados da parte1.
+-  <a href="https://drive.google.com/drive/folders/1QClCMvIgSrBdM7y5b_coLSUgCYieDRm9?usp=sharing">Parte 1</a> 
+-  <a href="https://drive.google.com/drive/folders/1A_6KW9Ah3LVeyLyXPSC8_EA4S67eavAj?usp=sharing">Parte 2</a> 
 
 
 
