@@ -33,54 +33,33 @@
 ---
 
 ## ✅ Pré-requisitos
-- Google Colab com **GPU ativada** (Runtime → Change runtime type → **GPU**).
 - **Google Drive** com:
   - `dataset.yaml` no formato YOLO (com `train`, `val`, `test` e `names`).
   - Pastas `images/` e `labels/` com as anotações **YOLO** da Entrega 1.
-  - **Pesos customizados** da Entrega 1: `.../runs/train/expX/weights/best.pt`.
-- Python ≥ 3.10 (gerenciado pelo Colab).
-- Espaço livre no Drive para salvar resultados.
+  - **Pesos customizados** da Entrega 1: `MyDrive/FarmTech-Parte2/results/farmtech_60_epochs/weights/best.pt`.
 
 ---
 
-## 🗂️ Estrutura do Dataset
-Exemplo (sugestivo, adapte ao seu):
-
-/MyDrive/fase6/
-  dataset/
-    dataset.yaml
-  images/
-    train/...
-    val/...
-    test/...
-    labels/
-    train/...
-    val/...
-    test/...
-  yolo_runs/ # 
-
-
-**Atenção**: o `dataset.yaml` deve apontar corretamente para os caminhos de `train`, `val` e `test` (pasta ou arquivo .txt com a lista de imagens) e conter `names` com a lista das classes.
+**Atenção**: o `dataset.yaml` foi copiado do notebook da parte1(/content/drive/MyDrive/FarmTech_YOLO_PROJECT/dataset) e editado para apontar para path da parte2(/content/drive/MyDrive/FarmTech-Parte2/dataset)
 
 ---
+
+## �� **Como Executar o Projeto**
+
+### **1. Acesso ao Notebook Principal**
+📓 **[Abrir Notebook no Google Colab](https://drive.google.com/drive/folders/1QClCMvIgSrBdM7y5b_coLSUgCYieDRm9?usp=sharing)**
+
 
 ## ▶️ Como Executar (Google Colab)
-1. Abra o notebook **`parte2_fase6_farmtech_yolo_cnn.ipynb`** no Colab.  
-2. Execute a célula **Montar Google Drive**.  
-3. **Edite os caminhos** no bloco “🔧 Configuração de caminhos (EDITE AQUI)”.  
+1. **[Abrir Notebook da Parte2 no Google Colab](https://drive.google.com/drive/folders/1A_6KW9Ah3LVeyLyXPSC8_EA4S67eavAj?usp=sharing)
+2. Copiar arquivos de dataset para seu drive
+3. Execute a célula **Montar Google Drive**.  
+4. **Paths importantes** 
    - `DATASET_YAML_PATH` → seu `dataset.yaml`  
    - `CUSTOM_WEIGHTS_PATH` → `best.pt` (Entrega 1)  
    - `OUTPUT_DIR` → pasta de saída no Drive  
-4. Execute as seções na ordem (setup → YOLO baseline → avaliação custom → conversão → CNN → comparação).  
-5. Ao final, colete as evidências (imagens, métricas e CSV/JSON) para o README e para o vídeo.
-
----
-
-## ✏️ O que Preencher/Editar
-No topo do notebook:
-- **Autor/RM** (no cabeçalho Markdown).
-- `DATASET_YAML_PATH`, `CUSTOM_WEIGHTS_PATH`, `OUTPUT_DIR`.
-- Na seção **“Discussão e Conclusões”**, substitua os placeholders (**X/Y/Z**) pelos seus resultados.
+5. Execute as seções na ordem (setup → YOLO baseline → avaliação custom → conversão → CNN → comparação).  
+6. Ao final, colete as evidências (imagens, métricas e CSV/JSON) para o README e para o vídeo.
 
 ---
 
@@ -107,30 +86,12 @@ O notebook gera automaticamente:
   - `comparativo_metrics.json`
   - `comparativo_metrics_table.csv`
 
-> **Inclua no README** algumas imagens de detecção (`yolo_detect/...`) e a matriz de confusão da CNN.
-
 ---
 
 ## 📊 Comparação e Conclusões
-Após rodar, preencha uma tabela de síntese como:
 
-| Modelo            | Facilidade | Precisão (mAP/Acc/F1) | Treino (min) | Latência (s/img) | Observações |
-|-------------------|------------|------------------------|--------------|------------------|------------|
-| YOLOv5 Baseline   | Alta       | mAP@50=… / mAP@50-95=… | …            | …                | Setup rápido |
-| YOLOv5 Custom     | Média      | **mAP@50=…**           | …            | **…**            | Melhor no meu dataset |
-| CNN (Keras)       | Média      | Acc=… / F1=…           | …            | …                | Sem caixas (classificação) |
+ No próprio  Notebook Jupyter a sessões de análise e no finial uma sessão mais extença de conclusões.
 
-**Conclusão sugerida**: para cenários de **detecção em tempo real** (p. ex., segurança patrimonial), **YOLO custom** tende a equilibrar **alta precisão** e **baixa latência**. A **CNN** é adequada para **classificação pura** (classe por imagem), com implementação simples, porém não fornece *bounding boxes*.
-
----
-
-## 🎥 Gravação do Vídeo (5 min)
-- Mostre o **dataset.yaml** e a estrutura das pastas.
-- Mostre de 1 a 2 **prints** das detecções (baseline vs custom).
-- Mostre a **matriz de confusão** e **métricas** da CNN.
-- Mostre a **tabela comparativa** (`comparativo_metrics_table.csv`) e cite a conclusão.
-
----
 
 ## 🧠 Solução Técnica
 - **YOLOv5** (Ultralytics) para baseline e avaliação dos pesos custom (`val.py`, `detect.py`).
@@ -144,11 +105,4 @@ Após rodar, preencha uma tabela de síntese como:
 ---
 
 ## 👤 Créditos
-- **Autor**: `<Seu Nome Completo>` — **RM**: `<Seu RM>`
-- **Grupo**: `<1 a 5 pessoas>` (se aplicável)
-
----
-
-## 📝 Licença
-Este projeto é distribuído sob a licença **MIT**. Veja `LICENSE` para mais detalhes.
-
+- **Autores**: `Carlos Mário` — **RM**: `RM563769` e group

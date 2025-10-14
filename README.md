@@ -7,10 +7,11 @@
 ## Nome do grupo
 
 ## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Silas Fernandes</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Matheus Lima</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Carlos Mario</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Stephanie dos Santos</a> 
+
+- Carlos Mario Vieira de Melo (carlos.mario@gmail.com) - RM563769
+- Matheus Cardoso Oliveira Lima (matheuslimamarketing@gmail.com) - RM565844
+- Silas Fernandes de Souza Fonseca (silas23.fr@gmail.com) - RM564246
+- Stephanie Dias dos Santos (stephaniedossantosforever@gmail.com) - RM564315
 
 
 
@@ -42,7 +43,9 @@ Check my [test document](./abc/test.md)!
 -  <a href="https://drive.google.com/drive/folders/1QClCMvIgSrBdM7y5b_coLSUgCYieDRm9?usp=sharing">Parte 1</a> 
 -  <a href="https://drive.google.com/drive/folders/1A_6KW9Ah3LVeyLyXPSC8_EA4S67eavAj?usp=sharing">Parte 2</a> 
 
+### Vídeo Explicativo
 
+-  <a href="https://youtube.com">Apresentação do </a> 
 
 ## 📋 Licença
 

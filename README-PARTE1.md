@@ -44,8 +44,5 @@ O YOLO revolucionou a detecção de objetos ao tratar o problema como uma única
 ## �� **Como Executar o Projeto**
 
 ### **1. Acesso ao Notebook Principal**
-📓 **[Abrir Notebook no Google Colab](https://colab.research.google.com/github/stephanieddsantos/FarmTech-Vision-YOLO/blob/main/notebooks/stephanie_rm[SEU_RM]_pbl_fase6.ipynb)**
+📓 **[Abrir Notebook no Google Colab](https://drive.google.com/drive/folders/1QClCMvIgSrBdM7y5b_coLSUgCYieDRm9?usp=sharing)**
 
-### **2. Pré-requisitos**
-```bash
-pip install -r requirements.txt
