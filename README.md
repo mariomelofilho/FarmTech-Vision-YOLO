@@ -1,51 +1,57 @@
-# 🎯 FarmTech Vision Solutions - Sistema de Detecção de Objetos com YOLO
+# FIAP - Faculdade de Informática e Administração Paulista
 
-## 📋 Visão Geral do Projeto
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
 
-Este projeto faz parte da **Fase 6** do curso de Inteligência Artificial da FIAP, desenvolvido para a **FarmTech Solutions**. O objetivo é demonstrar a implementação prática de um sistema de visão computacional utilizando a arquitetura **YOLOv5** para detecção de objetos em tempo real.
+<br>
 
-### 🎯 **Objetivos Principais**
-- Desenvolver um sistema de detecção de objetos usando YOLOv5
-- Comparar performance entre diferentes configurações de treinamento (30 vs 60 épocas)
-- Demonstrar aplicabilidade prática da visão computacional
-- Avaliar métricas de acurácia, precisão e recall
+# Nome do projeto
 
-## 🧠 **Fundamentação Teórica**
+## Nome do grupo
 
-### **YOLO (You Only Look Once)**
-O YOLO revolucionou a detecção de objetos ao tratar o problema como uma única regressão end-to-end, diferente dos métodos tradicionais de duas etapas (R-CNN, Fast R-CNN).
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/company/inova-fusca">Silas Fernandes</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">Matheus Lima</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Carlos Mario</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Stephanie dos Santos</a> 
 
-**Principais Vantagens:**
-- ⚡ **Velocidade**: Processamento em tempo real (>30 FPS)
-- 🎯 **Precisão**: mAP competitivo com métodos estado-da-arte
-- 💡 **Eficiência**: Menor uso de recursos computacionais
 
-### **Arquitetura YOLOv5**
-- **Backbone**: CSPDarknet53 para extração de features
-- **Neck**: PANet para fusão de features multi-escala
-- **Head**: Camadas de detecção para predição final
 
-## 📊 **Dataset e Metodologia**
+## 📜 Descrição
 
-### **Classes de Objetos Selecionadas**
-- **Classe 0**: Veículos (carros, motos, caminhões)
-- **Classe 1**: Pedestres (pessoas caminhando)
+*FIAP Curso IA, Turma 1TIAOA-2025, Fase6 Capitulo 1*
 
-### **Distribuição dos Dados**
-- **Treinamento**: 64 imagens (32 por classe)
-- **Validação**: 8 imagens (4 por classe)
-- **Teste**: 8 imagens (4 por classe)
-- **Total**: 80 imagens
 
-### **Experimentos Planejados**
-1. **Experimento 1**: 30 épocas de treinamento
-2. **Experimento 2**: 60 épocas de treinamento
+## 📁 Estrutura de pastas
 
-## �� **Como Executar o Projeto**
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-### **1. Acesso ao Notebook Principal**
-📓 **[Abrir Notebook no Google Colab](https://colab.research.google.com/github/stephanieddsantos/FarmTech-Vision-YOLO/blob/main/notebooks/stephanie_rm[SEU_RM]_pbl_fase6.ipynb)**
+- <b>README-PARTE1.md</b>: Instruções para execução do Notebook Jupyter da Parte 1
+- <b>README-PARTE2.md</b>: Instruções para execução do Notebook Jupyter da Parte 2
 
-### **2. Pré-requisitos**
-```bash
-pip install -r requirements.txt
+##  📁  Arquivo compartilhados
+
+ Os arquivo de cada parte da entrega estão adicionalmente compartilhados no google drive:
+
+  - Notebook Jupyter
+  - Imagens
+  - Labels
+  - dataset
+
+ <a href="https://drive.google.com/drive/folders/1QClCMvIgSrBdM7y5b_coLSUgCYieDRm9?usp=sharing">Parte 1</a> 
+
+ <a href="https://drive.google.com/drive/folders/1QClCMvIgSrBdM7y5b_coLSUgCYieDRm9?usp=sharing">Parte 2</a> 
+
+- <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Exemplo: deploy, migrações de banco de dados, backups.
+
+
+
+
+
+
+## 📋 Licença
+
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+
+
