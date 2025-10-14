@@ -19,7 +19,7 @@ jupyter>=1.0.0
 ipywidgets>=8.0.0
 
 # Google Colab Integration
-google-colab
+#google-colab
 
 # Progress Bars and Utilities
 tqdm>=4.64.0
