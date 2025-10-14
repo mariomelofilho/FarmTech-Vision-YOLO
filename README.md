@@ -23,8 +23,9 @@
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- <a>README-PARTE1.md</a>:Instruções para execução do Notebook Jupyter da Parte 1
-- <a>README-PARTE2.md</a>:Instruções para execução do Notebook Jupyter da Parte 2
+Check my [test document](./abc/test.md)!
+- [Instruções para execução do Notebook Jupyter da Parte 1](./README-PARTE1.md)!
+- [Instruções para execução do Notebook Jupyter da Parte 2](./README-PARTE2.md)!
 
 ##  📁  Arquivo compartilhados
 
